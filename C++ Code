@@ -1,0 +1,38 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    string a;
+
+    cout<<"Enter your Word:";
+    cin>>a;
+
+    if (a== "ABACUS"){
+        cout<<"AROUND 4000 YEARS AGO.";
+
+    }else if (a== "NAPIER'S_BONES"){
+        cout<<"MANUALLY OPERATED CALCULATING DEVICE.";
+    }else if (a== "PASCALINE"){
+        cout<<"ARITHMETIC MACHINE.";
+    }else if(a== "LEIBNEZ_WHEEL"){
+        cout<<"DIGITAL MACHINE CALCULATOR.";
+    }else if (a== "ANALYTICAL_ENGINE"){
+        cout<<"WAS MECHANICAL COMPUTER.";
+    }else if (a== "TABULATING_MACHINE"){
+        cout<<"MECHANICAL TABULATOR.";
+    }else if (a== "DIFFERENT_ANALYZER"){
+        cout<<"FIRST ELECTRONIC COMPUTER.";    
+    }else if (a== "MARK_1"){
+        cout<<"MARKING A NEW ERA IN THE COMPUTER WORLD.";
+    }else if (a== "FIRST_GEN_COM."){
+        cout<<"YEAR 1940-1956 SLOW HUGE AND EXPENSIVE.";
+    }else if (a== "SECOND_GEN_COM."){
+        cout<<"YEAR 1957-1963 TRANSISTOR COMPUTERS.";                   
+    }else{
+        cout<<"No word is found";
+
+   }
+
+   return 0;
+
+}
